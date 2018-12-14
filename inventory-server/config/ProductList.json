@@ -1,0 +1,11 @@
+[{
+    "product_name": "Men shirt",
+    "product_description": "Fantastic Product",
+    "product_price": 200
+  },
+  {
+    "product_name": "Blue Cap",
+    "product_description": "Blue cap for style",
+    "product_price": 300
+  }
+]
