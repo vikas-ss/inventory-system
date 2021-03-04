@@ -29,7 +29,7 @@ router.post("/", function(req, res) {
 
 router.get("/", async function(req, res) {
 
-    console.log("product list ");
+    console.log("product list .. ");
     const collection = db.collection('product');
     
   
