@@ -10,16 +10,17 @@ import { Observable } from 'rxjs';
 export class ProductsComponent implements OnInit {
 
   products$: Object;
+  property: any;
 
   constructor(private data: ProductService) { }
 
   ngOnInit() {
 
     this.data.getProducts().subscribe(
-      data => this.products$ = data 
+      data => this.property = data
     );
 
-    
+
   }
 
 }
