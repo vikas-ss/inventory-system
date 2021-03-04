@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
 
-  console.log("Upload page");
+  console.log("Upload page .. ");
   res.write("product list ... ");
 
 });
